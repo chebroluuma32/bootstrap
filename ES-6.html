@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // function add(x,y){
+    //     return x+y
+    // }
+    //  Anonymous function
+
+    //   let add=function(x,y){
+    //     return x+y
+
+    // }
+      
+    
+    // arrow function
+    //   let add=(x,y)=>{
+    //       return x+y
+
+    //   }
+    //   document.write(add(3,4))
+    //   Objects
+
+      employee={
+          name:"umach",
+          designation:" junior software developer",
+          salary:"6LPA"
+      }
+
+
+    //   let salary=employee.salary;
+
+    //   let{name,designation,salary}=employee
+    //   document.write(designation);
+
+    // Array
+
+    // let employees=["uma","guna","sharon"]
+    // let emp2=employees[1]
+    // let [emp1,emp2,emp3]=employees
+    // document.write(emp1)
+      
+    // spread operator
+
+
+    // let [emp1,...remainData]=employees
+
+    // console.log(emp1);
+    // console.log(remainData);
+
+    // rest parameter
+
+
+    function  add(x,y,...remainList){
+        // return x+y
+        console.log(x);
+        console.log(y);
+        console.log(typeof(remainList))
+    }
+
+    console.log(add(3,4,22233,33,13312,313,13))
+
+    let employees=["uma","guna","sharon","priya"]
+
+    // employees.forEach((value)=>{
+    //     console.log(value)
+    // })
+
+
+     employees.map((value,index)=>{
+        return document.write (value+"k"+"<br />")
+    })
+
+    // console.log(list)
+    // document.write(list)
+
+    </script>
+    
+</body>
+</html>
